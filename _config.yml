@@ -1,0 +1,8 @@
+# Site Settings
+locale                   : "en-US"
+title                    : "Landing Page"
+title_separator          : "-"
+subtitle                 : Project Code fall 2020 - Landing Page
+name                     : "Han"
+description              : "Assignment2"
+url                      : "https://hanbyeoll.github.io/landingpage/"
