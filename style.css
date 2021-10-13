@@ -1,0 +1,458 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+header, div {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Open Sance', sans-serif;
+  color: white;
+}
+
+#page-wrapper {
+  position: relative;
+}
+
+.main-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 260px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bg-logo {
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  transform: translate(-50%, -50%);
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: medium;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+.main-title-01 {
+  margin-top: -20px;
+}
+
+.main-text-01 {
+  margin-top: 120px;
+}
+
+.main-title-02 {
+  margin-top: 140px;
+}
+
+.main-title-04 {
+  margin-top: 200px;
+}
+
+.main-text-04 {
+  text-align: left;
+}
+
+.main-num {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.main-banner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 4);
+  border-right: 0.5px solid #fff;
+}
+
+.main-banner-03 {
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/1400/6adcbc29465817.589d95e51ba6a.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.main-banner:last-child {
+  border-right: 0;
+}
+
+#header-img {
+  width: 80px;
+}
+
+header {
+  z-index: 9;
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 75px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+}
+
+#nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0 10px;
+  font-size: 13px;
+}
+
+#hero {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+}
+
+#subscribe {
+  height: 100%;
+}
+
+#campaign {
+  height: 100vh;
+}
+
+
+#first-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .main-title {
+    font-size: 140px;
+  }
+
+  #subscribe {
+    height: 100%;
+  }
+
+  #campaign {
+    height: 100%;
+  }
+
+  .about-01-box img {
+  width: 100%;
+  height: 300px;
+}
+  
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+   .main-title {
+    font-size: 180px;
+  }
+
+}
+
+.about-01 {
+  background-color: #1B1B1B
+}
+
+.about-02-01 {
+  background-color: #fff;
+}
+
+.mission-text-01 {
+  font-size: 18px;
+  font-family: 'Noto Sans', sans-serif;
+  color: #000;
+  text-align: center;
+  font-style: italic;
+}
+
+.mission-text-02 {
+  font-size: 14px;
+  font-family: 'Noto Sans', sans-serift;
+  color: #000;
+  text-align: center;
+}
+
+.about-02-02 {
+  background-color: #3C3C3C;
+}
+
+.about-title-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: medium;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.about-nike, .news-title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  color: #fff;
+  font-weight: normal;
+  
+}
+
+.our-mission {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 28px;
+  color: #000;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-01-box {
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+}
+
+.about-01-box img {
+  width: 100%;
+  height: auto;
+}
+
+.position-relative {
+  position: relative;
+  height: 100%;
+}
+
+.about-text-div {
+  width: 100%;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  height: 100vh;
+}
+
+
+.about-02 {
+  display: grid;
+  grid-template-rows: 50% 50%;
+
+}
+
+.about-02-02-box {
+  width: 100%;
+  max-width: 500px;
+}
+
+.about-02-02-box ul li {
+  position: relative;
+  list-style-type: none;
+}
+
+.about-02-02-box ul li::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #F12D2D;
+  top: 5px;
+  left: -30px;
+}
+
+
+
+@media (max-width: 1024px) {
+  .about {
+    grid-template-columns: 100%;
+    height: auto;
+  }
+
+  .about-01-box {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+ 
+
+  .about-02 {
+    grid-template-rows: auto;
+  }
+
+  .about-02-01 {
+    padding: 100px 30px;
+  }
+
+  .about-02-02 {
+    padding: 80px 30px;
+
+  }
+
+  .absolute-center {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+  }
+
+  #campaign {
+    height: 500px;
+    padding: 30px;
+  }
+}
+
+#news {
+  height: 100vh;
+}
+
+.news-section {
+  text-align: center;
+  margin-right: 60px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.article-content {
+  margin: 25px;
+}
+
+.news-title {
+  text-align: center;
+}
+
+.sub-title {
+  position: relative;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.sub-title::after {
+  content: '';
+  position: absolute;
+  width: 120px;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #f12d2d;
+}
+
+.article-title{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.news-section img {
+  width: 100%;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  width: calc(33vw - 30px);
+  max-width: 300px;
+  margin: 10px;
+  background-color: #3C3C3C;
+}
+
+@media (max-width: 800px) {
+  .news-section {
+    flex-direction: column;
+  }
+
+  .article {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  #news {
+    height: 100%;
+  }
+}
+
+#subscribe {
+  text-align: center;
+  margin: 100px;
+}
+
+#subscribe input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#subscribe input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  color: #fff;
+  background-color: #F12D2D;
+}
+
+#subscribe input[type="submit"]:hover {
+  background-color: #C02F2F;
+  transition: background-color 0.5s;
+}
+
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  font-size: 0.8em;
+  color: #8B8B8B;
+}
+
+#footer {
+  height: 100%;
+}
+
+span {
+  margin: 10px;
+}
